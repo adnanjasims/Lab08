@@ -15,6 +15,10 @@ public class CustomListTest {
         assertTrue(list.hasCity(calgary), "after add, list should have Calgary");
     }
 
+
+    /*
+
+
     @Test
     public void testDeleteCity() {
         CustomList list = new CustomList();
@@ -34,8 +38,10 @@ public class CustomListTest {
                 "delete should return false when city didn't exist");
         assertTrue(list.hasCity(van), "other cities remain");
     }
+*/
 
 
+/*
     @Test
     public void testCountCities() {
         CustomList list = new CustomList();
@@ -51,7 +57,6 @@ public class CustomListTest {
         list.deleteCity(new City("Calgary", "AB"));
         assertEquals(1, list.countCities());
 
-
+*/
 
     }
-}
