@@ -4,22 +4,24 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CustomList {
-    private List<City> cities;
-
+    private final List<City> cities;
     public CustomList() {
         this.cities = new ArrayList<>();
     }
-
     public void addCity(City city) {
         cities.add(city);
     }
-
-    
-
-    // Will be implemented later using TDD (leave blank for now)
-    // public boolean hasCity(City city) { ... }
-
+    /** true if the list already contains this city */
     public boolean hasCity(City city) {
         return cities.contains(city);
+    }
+    /** remove a city if present; returns true if removed, false if not found */
+    public boolean deleteCity(City city) {
+        return cities.remove(city);
+    }
+
+    /** number of cities in the list */
+    public int countCities() {
+        return cities.size();
     }
 }
