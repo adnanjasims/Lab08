@@ -16,9 +16,6 @@ public class CustomListTest {
     }
 
 
-
-
-
     @Test
     public void testDeleteCity() {
         CustomList list = new CustomList();
@@ -40,8 +37,6 @@ public class CustomListTest {
     }
 
 
-
-
     @Test
     public void testCountCities() {
         CustomList list = new CustomList();
@@ -58,5 +53,5 @@ public class CustomListTest {
         assertEquals(1, list.countCities());
 
 
-
     }
+}
