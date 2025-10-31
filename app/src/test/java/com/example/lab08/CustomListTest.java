@@ -16,7 +16,7 @@ public class CustomListTest {
     }
 
 
-    /*
+
 
 
     @Test
@@ -38,7 +38,7 @@ public class CustomListTest {
                 "delete should return false when city didn't exist");
         assertTrue(list.hasCity(van), "other cities remain");
     }
-*/
+
 
 
 /*
