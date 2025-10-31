@@ -15,14 +15,14 @@ public class CustomList {
     /** true if the list already contains this city */
 
 
-    /*
+
 
     public boolean hasCity(City city) {
 
         return cities.contains(city);
     }
 
-    */
+
 
     /*
 
