@@ -13,11 +13,11 @@ public class CustomList {
         cities.add(city);
     }
     /** true if the list already contains this city */
-    /*public boolean hasCity(City city) {
+    public boolean hasCity(City city) {
 
         return cities.contains(city);
     }
-
+/*
     public boolean deleteCity(City city) {
         return cities.remove(city);
     }
