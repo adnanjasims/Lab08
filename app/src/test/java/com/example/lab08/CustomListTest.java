@@ -35,7 +35,7 @@ public class CustomListTest {
         assertTrue(list.hasCity(van), "other cities remain");
     }
 
-/*
+
     @Test
     public void testCountCities() {
         CustomList list = new CustomList();
@@ -52,6 +52,6 @@ public class CustomListTest {
         assertEquals(1, list.countCities());
 
 
- */
+
     }
 }
